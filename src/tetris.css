@@ -1,0 +1,24 @@
+#tetris-container {
+  /* display: flex;
+  margin: 50px;
+  height: 800px;
+  border: 1px solid black; */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.cell-filled {
+  background-color: red;
+}
